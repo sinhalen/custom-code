@@ -1,0 +1,15 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  .pb-5, .py-5 {
+    padding-bottom: 1rem!important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
