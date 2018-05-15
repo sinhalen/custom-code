@@ -1,0 +1,3 @@
+$(document).ready(function(){getParams();location.getParams=getParams;var c=location.getParams();if(c[""]=="undefined"){}else{var num=c.p;var name=c.i;var path=window.location.pathname;redirect(path,name,num)}});function getParams(){var result={};var tmp=[];location.search.substr(1).split("&").forEach(function(item)
+{tmp=item.split("=");result[tmp[0]]=decodeURIComponent(tmp[1])});return result}
+function redirect(redirectUrl,i,p){var form=$('<form action="'+redirectUrl+'" method="post">'+'<input type="hidden" name="i" value="'+i+'" />'+'<input type="hidden" name="p" value="'+p+'" />'+'</form>');$('body').append(form);$(form).submit()}
