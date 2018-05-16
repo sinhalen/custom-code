@@ -68,13 +68,13 @@
         margin: auto;
         width: 960px;
         height: 54px;
-        background: #2c3e50 url(https://lh3.googleusercontent.com/YdOVdDr0cKaVp9kr-KysqSIL7lzGv_emTwbaADmozHDV4M4hdrNfs8tnFFiZsbWm84-nmts1NVT8T7m9CEZvyFwGUVmtpXyA4vP_Zjr-y4Kj8xZLOyPEV7rKrcxTl7qOwE-PIDPo07qvhMaEYqVIty_A77iMFlc7EA__v2IsabH8QfunlmPRXBqjEdyG52EkkWE0iSNv05R9nk70lyAFxxA7tOVHHFu5FM-JURJ_XBSos6zB2gqHMo05HMzl_nEqjNv3Lx5XGVZ6DdRiioq2arIFriIkmX516vvbT1GSDzRj5LcJPAygk1nd1z_Hw-wj0dALvg3NFysZ2_ofc6ElEIvIfylKEp5Y-K08T9rqmJw86OjeXUlIo2DG_CKTiuF0aZvgVfWVBtvZvvkV2KbX8K7mkw1Gt1fDOGXp_OaopzleYvhJCUHyZft8Je3PMyvS2bgua7a1JyZcgOHY3LIY0sYicHxf0fk1gSezSp1mAW260na2tGelS_BmaPfW3quITHFoO_wY-psUhwuIfz-1BWYobGn0SrZngpJHHghPC0a5obHr3PfTw1CYbpk7zFHk5JsTTWXFAEMoCtQedmivIvkPUpBZf5G5z6rs4gvR9QcT2E36mZwY3a5EixNVdxdvIlVAP_gWH-IHJVH_5UHL-A4aptRGSMLN=w300-h60-no) top left no-repeat;
+        background: #2c3e50 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logo.png) top left no-repeat;
     }
     
     @media screen and (max-width: 768px) {
         #logo {
             width: 100%;
-            background: #2c3e50 url(https://lh3.googleusercontent.com/YdOVdDr0cKaVp9kr-KysqSIL7lzGv_emTwbaADmozHDV4M4hdrNfs8tnFFiZsbWm84-nmts1NVT8T7m9CEZvyFwGUVmtpXyA4vP_Zjr-y4Kj8xZLOyPEV7rKrcxTl7qOwE-PIDPo07qvhMaEYqVIty_A77iMFlc7EA__v2IsabH8QfunlmPRXBqjEdyG52EkkWE0iSNv05R9nk70lyAFxxA7tOVHHFu5FM-JURJ_XBSos6zB2gqHMo05HMzl_nEqjNv3Lx5XGVZ6DdRiioq2arIFriIkmX516vvbT1GSDzRj5LcJPAygk1nd1z_Hw-wj0dALvg3NFysZ2_ofc6ElEIvIfylKEp5Y-K08T9rqmJw86OjeXUlIo2DG_CKTiuF0aZvgVfWVBtvZvvkV2KbX8K7mkw1Gt1fDOGXp_OaopzleYvhJCUHyZft8Je3PMyvS2bgua7a1JyZcgOHY3LIY0sYicHxf0fk1gSezSp1mAW260na2tGelS_BmaPfW3quITHFoO_wY-psUhwuIfz-1BWYobGn0SrZngpJHHghPC0a5obHr3PfTw1CYbpk7zFHk5JsTTWXFAEMoCtQedmivIvkPUpBZf5G5z6rs4gvR9QcT2E36mZwY3a5EixNVdxdvIlVAP_gWH-IHJVH_5UHL-A4aptRGSMLN=w300-h60-no) top center no-repeat
+            background: #2c3e50 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logo.png) top center no-repeat
         }
     }
     
