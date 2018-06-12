@@ -1,0 +1,155 @@
+html,body{
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  font-family:Trebuchet MS;
+  color : black;
+  background:  #f2f3f4;
+}
+a,a:visited,a:active, .menu, .menu:visited, .menu:active {text-decoration: none; color : #900; }
+a:hover{color : red;}
+#mbtn:hover, #mbtnx:hover{
+    background-color: #F5F5F5;
+  color : black;
+}
+h1{ 
+  font-size: 22px;
+  font-weight : normal;
+  padding: 2px;
+  text-align:left;
+  margin-left: 0;
+  margin-top:5px;
+  margin-bottom: 10px;
+  width: auto;
+  background-color: white;
+}@media screen and (max-width: 768px) {h1{width: 99%;padding: 1px;padding-top: 5px;padding-bottom: 5px;font-size:16px;}}
+a{
+  font-size: 12px;
+  padding: 2px;
+  text-align:center;
+  margin : 2px;
+  margin-top : -20px
+}
+h2{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+  margin-top: -2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  color:  #5d6d7e;
+}
+h4{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+  margin-top: -2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  color:  #ff0000;
+    }
+    h3,h5,h6,a,p,li,strong{
+  font-size: 12px;
+    line-height: 15px;
+  text-align:left;
+  margin-top: -2px;
+  margin-bottom: 4px;
+  margin-left: 5px;
+  color:  #5d6d7e;
+    }
+hr{ border: 0.5px solid #e8e8e8;}
+iframe { width: 100%; height: 320px;}@media screen and (max-width: 768px) {iframe {width: 100%; height: 200px}}
+#top{
+  background: #900;
+  margin-left: 0;
+  margin-top: 0;
+  border-bottom: 2px solid #000;
+  margin-bottom: 10px;
+}
+#logo{
+  margin: auto;
+  width: 960px;
+  height: 54px;
+  background: #900 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/cdlogo.png) top left no-repeat;
+}@media screen and (max-width: 768px) {#logo{width: 100%; background: #900 url(http://www.cloudwire.host/logo.gif) top left no-repeat}}
+#mbtn{display :block; float: right; text-align: center; font-size: 13px; font-weight:bold; padding: 10px; padding-top: 19px;padding-bottom: 19px; color: white}@media screen and (max-width: 768px) {#mbtn{visibility: hidden; display:none;}}
+.menu{visibility: hidden; display:none;}@media screen and (max-width: 768px) {.menu{display :block; float: right; text-align: center; font-size: 50px; font-weight:bold; padding: 8px; color: white; visibility: visible; display:inline;}}
+#BodyMain {
+  margin: auto;
+  width: 960px;
+  padding: 5px;
+  margin-bottom: 10px;
+}@media screen and (max-width: 768px) {#BodyMain{width: 94%;padding-left: 0px;padding-right: 0px;overflow:hidden;}}
+.leftcont{float:left; width: 650px;height:auto;   background: white;  border: 1px solid #e8e8e8; padding: 0; border-radius: 5px;}@media screen and (max-width: 768px) {.leftcont{width: 99%;float:left; margin: 0;margin-bottom: 5px; overflow:hidden;}}
+.rightcont{float:right; width: 300px;height:auto;   background: white;  border: 1px solid #e8e8e8; padding: 0;margin-bottom: 10px; border-radius: 5px;}@media screen and (max-width: 768px) {.rightcont{visibility: hidden;  display: none}}
+#BodySecond {
+    background: #900;
+  padding: 20px;
+  margin-bottom: 0;
+  border-top: 1px solid #000;
+}@media screen and (max-width: 768px) {#BodySecond{width: 100%;padding-left: 0px;padding-right: 0px;}}
+.msg{margin-bottom: 2px; padding:5px;}@media screen and (max-width: 768px) {.msg{width: 98%;padding: 5px;}}
+#advertisement{margin-bottom: 12px;}
+#foot{
+  margin: auto;
+  width: 950px;
+  font-size: 12px;
+  color : #fff;
+  text-align : right;
+}@media screen and (max-width: 768px) {#foot{width: 96%;}}
+.clear{clear:both;}
+.show{width: 98%; padding: 1%;}
+.usershow{width: 96%; max-width: 650px; margin: auto;}
+.usermobi{width: 96%; max-width:400px; margin: auto;}
+    .box{float:left; width: 23.6%; margin: 0.5%; border-radius: 5px; border: 1px solid #e8e8e8;}@media screen and (max-width: 768px) {.box{border: 0;}}
+    .thumb {float:left; width: 100%; height: auto; border-radius: 5px 5px 0 0;}
+    .boxR{float:left; width: 49%; margin: 0.5%; border-radius: 5px;}
+    .thumbR {float:left; width: 100%; height: auto; border-radius: 5px; max-width:141px;}
+#nav {margin: 2px;}#fanback {
+display:none;
+background:rgba(0,0,0,0.8);
+width:100%;
+height:100%;
+position:fixed;
+top:0;
+left:0;
+z-index:99999;
+}
+#fan-exit {
+width:100%;
+height:100%;
+}
+#fanbox {
+width:336px; 
+height:290px; 
+position:fixed; 
+left:50%; 
+top:20%; 
+margin-left:-168px;
+background:white;
+}
+#fanclose {
+float:left;
+cursor:pointer;
+height:15px;
+font-weight: bold;
+font-size:12px;
+color:#900;
+padding-left: 5px;
+font-family: 'Anton', sans-serif;
+}
+.remove-borda {
+height:0px;
+width:300px;
+margin:0 auto;
+background:#F3F3F3;
+position:relative;
+margin-left:20px;
+}
+#linkit a.visited,#linkit a,#linkit a:hover {
+color:#80808B;
+font-size:10px;
+margin: 0 auto 5px auto;
+float:center;
+}
