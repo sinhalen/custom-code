@@ -1,0 +1,176 @@
+html,body {
+    margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color : black;
+	background: #f2f3f4;
+    }
+    a,
+    a:visited,
+    a:active, .menu, .menu:visited, .menu:active {
+        text-decoration: none;
+        color: #455A64;
+    }
+    a.morebtn,
+    a.morebtn:visited,
+    a.morebtn:active {text-decoration: none; color: #fff;}
+        a.btnl, .btnl:visited, .btnl:active, .btnl:hover , a.btnr, .btnr:visited, .btnr:active, .btnr:hover {
+        text-decoration: none;
+        color: #FFF;    }
+        a:hover {
+        color: #000;
+    }
+    .mbtn:hover {
+        border-bottom: 3px solid #F5F5F5;
+    }
+    .morebtn:hover {
+        color: #000;
+    }
+    h1{
+	font-weight: 400;
+	text-align:left;
+	font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 8px;
+    border-bottom: 1px solid #455A64;
+    }
+    h2{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #FFF;
+    }
+    h3,h4,h5,h6,a,p,li,strong{
+	font-size: 13px;
+    line-height: 20px
+	text-align:left;
+    }
+    table{width: 100%; margin: auto;} @media screen and (max-width: 768px) {table {width: 100%;} }
+    tr:nth-child(odd) {
+    background-color: #F5F5F5;
+    }
+    th{background-color: #455A64; text-align:left; padding-left: 10px;}
+    td{padding-left: 10px;}
+    #top {
+        background: #455A64;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+        border-bottom: 2px solid red;
+    }
+    #logo {
+        margin: auto;
+        width: 800px;
+        height: 54px;
+        background: #455A64 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/cloudlg.png) top left no-repeat;
+    }
+    @media screen and (max-width: 768px) {
+        #logo {
+            width: 100%;
+            background: #455A64 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/cloudlg.png) top left no-repeat
+        }
+    }
+    #BodyMain {
+	margin: auto;
+	width: 800px;
+	margin-bottom: 10px;
+	background: white; 
+	border-radius: 8px;
+	border: 1px solid #e8e8e8;
+    }@media screen and (max-width: 768px) {#BodyMain{width: 100%; border: 0px;}}
+    #BodySecond {
+        padding: 20px;
+        margin-bottom: 0;
+        border-top: 1px solid #666699;
+        background: #455A64;
+    }@media screen and (max-width: 768px) {
+        #BodySecond {
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    #foot {
+        margin: auto;
+        width: 800px;
+        font-size: 11px;
+        color: #FFF;
+        text-align: right;
+    }@media screen and (max-width: 768px) {
+        #foot {
+            width: 96%;
+        }
+    }
+    .mbtn{display :block; float: right; text-align: center; font-size: 13px; font-weight:bold; padding: 10px; padding-top: 19px; color: white}@media screen and (max-width: 768px) {.mbtn{visibility: hidden; display:none;}}
+    .menu{visibility: hidden; display:none;}@media screen and (max-width: 768px) {.menu{display :block; float: right; text-align: center; font-size: 50px; font-weight:bold; padding: -1px 1px 1px 8px; color: white; visibility: visible; display:inline;}}
+    .morebtn{float: right; font-size: 13px; font-weight:bold; padding-right: 10px; color: #FFF; }@media screen and (max-width: 768px) {.morebtn{visibility: hidden; display:none;}}
+    .morebtn:after {
+        content: ' \2771';
+    }
+    .msg{width: 96%;padding: 2%;}@media screen and (max-width: 768px) {.msg{width: 92%;padding: 4%;}}
+    .clear {
+        clear: both;
+    }
+    .author {
+        font-size: 12px;
+        line-height: 8px
+    }
+    .og {width:100%;}
+    .show{width: 98%; padding: 1%;}
+    .usershow{width: 650px; margin: auto;}
+    .usermobi{width: 96%; margin: auto;}
+    .usermobil{width: 80%; max-width: 500px; float:left;}
+    .usermobiR{width: 20%; max-width: 100px; float:right;}
+    .box{float:left; width: 18.7%; margin: 0.5%; border-radius: 5px; border: 1px solid #e8e8e8;}@media screen and (max-width: 768px) {.box{ width: 23.6%; border: 0;}}
+    .thumb {float:left; width: 100%; height: auto; border-radius: 5px 5px 0 0; max-width:156px;}
+    .btnl {width: 100px; background: red; padding:5px; border : 0px; color: #FFF; margin: 2px; border-radius : 3px; font-size: 13px; font-weight: 600; text-align: center; cursor: pointer; float:left;}
+    .btnr {width: 100px; background: red; padding:5px; border : 0px; color: #FFF; margin: 2px; border-radius : 3px; font-size: 13px; font-weight: 600; text-align: center; cursor: pointer; float:right;}
+    #fanback {
+display:none;
+background:rgba(0,0,0,0.8);
+width:100%;
+height:100%;
+position:fixed;
+top:0;
+left:0;
+z-index:99999;
+}
+#fan-exit {
+width:100%;
+height:100%;
+}
+#fanbox {
+width:300px; 
+height:260px; 
+position:fixed; 
+left:50%; 
+top:20%; 
+margin-left:-150px;
+background:white;
+}
+#fanclose {
+float:left;
+cursor:pointer;
+height:15px;
+font-weight: bold;
+font-size:12px;
+color:#900;
+padding-left: 5px;
+font-family: 'Anton', sans-serif;
+}
+.remove-borda {
+height:0px;
+width:300px;
+margin:0 auto;
+background:#F3F3F3;
+position:relative;
+margin-left:20px;
+}
+#linkit a.visited,#linkit a,#linkit a:hover {
+color:#80808B;
+font-size:10px;
+margin: 0 auto 5px auto;
+float:center;
+}
