@@ -1,0 +1,201 @@
+<style>
+    html,
+    body {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        font-family: Trebuchet MS;
+        color: black;
+        background:  #f2f3f4;
+    }
+    
+    a,
+    a:visited,
+    a:active{
+        text-decoration: none;
+        color: #900;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    #mbtn:hover {
+        background-color: #F5F5F5;
+        color: black;
+    }
+    
+    #pagebtn:hover {
+        background-color: #900;
+        color: #FFF;
+    }
+    
+    h1 {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 5px;
+        text-align: left;
+        margin-left: 0;
+        margin-top: -1px;
+        margin-bottom: 5px;
+        width: auto;
+        color: #660000;
+        border-bottom: 1px solid #660000;
+        background: #FFF;
+    }
+    h2{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: -2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    color:red;
+    }
+    h3,h4,h5,h6,a,p,li,strong{
+    font-size: 12px;
+    line-height: 15px;
+    text-align:left;
+    margin-top: -2px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    color:  #5d6d7e;
+    }
+    #top {
+        background: #900;
+        margin-left: 0;
+        margin-top: 0;
+        border-bottom: 2px solid #000;
+        margin-bottom: 10px;
+    }
+    
+    #logo {
+        margin: auto;
+        width: 960px;
+        height: 54px;
+        background: #900 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/cloudlg.png) top left no-repeat;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #logo {
+            width: 100%;
+            background: #900 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/cloudlg.png) top center no-repeat
+        }
+    }
+    
+    #mbtn {
+        display: block;
+        float: right;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        color: white
+    }
+    
+    @media screen and (max-width: 768px) {
+        #mbtn {
+            visibility: hidden;
+            display: none;
+        }
+    }
+    #pagebtn {
+        display: block;
+        float: left;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px;
+        margin: 10px;
+        color: #900;
+        border: 1px solid #900;
+        border-radius: 25px;
+    }
+    
+    #BodyMain {
+        margin: auto;
+        width: 960px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #BodyMain {
+            width: 94%;
+            padding-left: 0px;
+            padding-right: 0px;
+            overflow: hidden;
+        }
+    }
+    
+    .leftcont {
+        float: left;
+        width: 650px;
+        height: auto;
+        border: 1px solid #e8e8e8;
+        background: white;
+        padding: 0;
+        border-radius: 5px;
+    }
+    .rightcont {
+        float: right;
+        width: 300px;
+        height: auto;
+        border: 1px solid #e8e8e8;
+        background: white;
+        padding: 0;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    #BodySecond {
+    background: #900;
+    padding: 20px;
+    margin-bottom: 0;
+    border-top: 1px solid #000;
+    }
+    .msg {
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    .btnpanel {
+        margin-bottom: 2px;
+        padding: 5px;
+        width: 55%;
+        margin: auto;
+    }
+    
+    #foot {
+        margin: auto;
+        width: 950px;
+        font-size: 12px;
+        color: #fff;
+        text-align: right;
+    }
+    .clear {
+        clear: both;
+    }
+    .box{float:left; width: 23.6%; margin: 0.5%; border-radius: 5px; border: 1px solid #e8e8e8; overflow: hidden; position: relative;}
+    .thumb {float:left; width: 100%; height: auto; border-radius: 0 0 0 0; max-width:156px;}
+    .boxR{float:left; width: 49%; margin: 0.5%; border-radius: 5px; }
+    .thumbR {float:left; width: 100%; height: auto; border-radius: 5px; max-width:141px;}
+    .boxpopular {
+        float: left;
+        width: 284px;
+        border: 1px solid #e8e8e8;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 5px;
+        margin: 1%; 
+    }
+    .thumbpopular {
+        width: 284px;
+        background-color: white;
+        margin-left: -2%; 
+    }
+    .mostPopular{background: #f4fd30; font-size: 14px; font-weight: 600; text-align: center; color: red; padding: 2px 5px 2px 5px; position: absolute; top:0; left: 0; border-radius: 0 0 5px 0;}
+    .new{background:  red; font-size: 14px; font-weight: 600; text-align: center; color: #fff; padding: 2px 5px 2px 5px; position: absolute; top:0; left: 0; border-radius: 0 0 5px 0;}
+</style>
