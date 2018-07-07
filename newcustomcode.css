@@ -1,0 +1,161 @@
+html,body{
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	font-family:Trebuchet MS;
+	color : black;
+	background-color: #f2f3f4;
+}
+a,a:visited,a:active {text-decoration: none; color : #000; }
+a:hover{color : red;}
+#mbtn:hover, #mbtnx:hover{
+    background-color: #F5F5F5;
+	color : black;
+}
+h1{ font-family: 'Concert One', cursive;
+	font-size: 22px;
+	font-weight : normal;
+	padding: 2px;
+	text-align:left;
+	margin-left: 0;
+	margin-top:5px;
+	margin-bottom: 10px;
+	width: auto;
+	background-color: white;
+}@media screen and (max-width: 768px) {h1{width: 99%;padding: 1px;padding-top: 5px;padding-bottom: 5px;font-size:16px;}}
+a{
+	font-size: 12px;
+	padding: 2px;
+	text-align:center;
+	margin : 2px;
+	margin-top : -20px
+}
+p,h2,strong{
+	font-size: 12px;
+	padding: 3px;
+	text-align:left;
+	margin : 5px
+}@media screen and (max-width: 768px) {p {margin : 3px}}
+h2{font-weight : normal;}
+ul{font-size: 12px;}
+h3{
+	font-size: 12px;
+	padding: 5px;
+	text-align:left;
+	width: auto;
+	height:auto;
+}
+hr{ border: 0.5px solid #e8e8e8;}
+iframe { width: 100%; height: 320px;}@media screen and (max-width: 768px) {iframe {width: 100%; height: 200px}}
+#top{
+	background: #000;
+	margin-left: 0;
+	margin-top: 0;
+	border-bottom:2px solid #fbff00;
+	margin-bottom: 10px;
+}
+#logo{
+	margin: auto;
+	width: 960px;
+	height: 54px;
+	background: #000 url(https://lh3.googleusercontent.com/R3tqaHwQkhzNX_mgj9ou_kzGD2UALcUeGuHxaGxdqw1dBf7yazaOQp27BRrZnil0iUSeFm0wxKGfs7IMH-mF3fRSSw-foebZbGCDlc_Akhgm24gN_M9KE6Wr-moqA_qXzQXn0pqLyJQlJ96EsOd_N1P6_fBD8npjHlbsg5QVfIUhtCMrkzMqKUvLWvOMgRAFkMvaI6TkA3tb4HWo23YkbKTPFFyF1kJvn4JsQ4JZ0ydt6vUqJTZnlwT2jf-XEBg3TK7oaDDaRrLAmVMjNhs5i0JG3sD04u4nRU6SfkPr_sLfZthsvnYIwib-L-u6pWZwPDDgWMQibWbOuikMMAuHl6XivbE_jw9N0QjGbidNi9vArWL5QPvYhO0vPKvaQDt_TdoWcMBe1JgbV-W856AFJhiXwE5UCiUrqCN_WRkMDMAZd1MRGo5He4itIc2kgrxutQ65j_Z4acbD1Fr3IItjXf2n8YYu3IrQqm77xO4dn2l91Ky76EUag4dm8iCscZah85nRDi7n1vAnjGdvsBbeRpSLjmhI_yn0GoTwwaIPO6cNus_B4hjOdkuSHKMKbnQCqJobiu12wQoXEg9JMpLHEfVpE_ewSJw05uMJ5c2wLGnDZOwaiGJLAVS3Jp3DjrFDnMLjbYYSCMhjZW0OeyUHnBL7adl8YLTX=w250-h50-no) top left no-repeat;
+}@media screen and (max-width: 768px) {#logo{width: 100%; background: #000 url(https://lh3.googleusercontent.com/R3tqaHwQkhzNX_mgj9ou_kzGD2UALcUeGuHxaGxdqw1dBf7yazaOQp27BRrZnil0iUSeFm0wxKGfs7IMH-mF3fRSSw-foebZbGCDlc_Akhgm24gN_M9KE6Wr-moqA_qXzQXn0pqLyJQlJ96EsOd_N1P6_fBD8npjHlbsg5QVfIUhtCMrkzMqKUvLWvOMgRAFkMvaI6TkA3tb4HWo23YkbKTPFFyF1kJvn4JsQ4JZ0ydt6vUqJTZnlwT2jf-XEBg3TK7oaDDaRrLAmVMjNhs5i0JG3sD04u4nRU6SfkPr_sLfZthsvnYIwib-L-u6pWZwPDDgWMQibWbOuikMMAuHl6XivbE_jw9N0QjGbidNi9vArWL5QPvYhO0vPKvaQDt_TdoWcMBe1JgbV-W856AFJhiXwE5UCiUrqCN_WRkMDMAZd1MRGo5He4itIc2kgrxutQ65j_Z4acbD1Fr3IItjXf2n8YYu3IrQqm77xO4dn2l91Ky76EUag4dm8iCscZah85nRDi7n1vAnjGdvsBbeRpSLjmhI_yn0GoTwwaIPO6cNus_B4hjOdkuSHKMKbnQCqJobiu12wQoXEg9JMpLHEfVpE_ewSJw05uMJ5c2wLGnDZOwaiGJLAVS3Jp3DjrFDnMLjbYYSCMhjZW0OeyUHnBL7adl8YLTX=w250-h50-no) top center no-repeat}}
+#mbtn{display :block; float: right; text-align: center; font-size: 13px; font-weight:bold; padding: 10px; padding-top: 19px;padding-bottom: 19px; color: white}@media screen and (max-width: 768px) {#mbtn{visibility: hidden; display:none;}}
+#BodyMain {
+	margin: auto;
+	width: 960px;
+	padding: 5px;
+	margin-bottom: 10px;
+}@media screen and (max-width: 768px) {#BodyMain{width: 94%;padding-left: 0px;padding-right: 0px;overflow:hidden;}}
+.leftcont{float:left; width: 650px;height:auto; border: 1px solid #e8e8e8;background: white; padding: 0;}@media screen and (max-width: 768px) {.leftcont{width: 99%;float:left; margin: 0;margin-bottom: 5px; overflow:hidden;}}
+.rightcont{float:right; width: 300px;height:auto; border: 1px solid #e8e8e8;background: white; padding: 0;margin-bottom: 10px;}@media screen and (max-width: 768px) {.rightcont{visibility: hidden;  display: none}}
+#BodySecond {
+	padding: 20px;
+	margin-bottom: 0;
+	border-top: 1px solid #e8e8e8;
+	background: #000;
+}@media screen and (max-width: 768px) {#BodySecond{width: 100%;padding-left: 0px;padding-right: 0px;background: #000;}}
+.msg{margin-bottom: 2px; padding:5px;}@media screen and (max-width: 768px) {.msg{width: 98%;padding: 5px;}}
+#advertisement{margin-bottom: 12px;}
+#foot{
+	margin: auto;
+	width: 950px;
+	font-size: 12px;
+	color : #FFF;
+	text-align : right;
+}@media screen and (max-width: 768px) {#foot{width: 96%;}}
+.clear{clear:both;}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Concert One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Concert One'), local('ConcertOne-Regular'), url(https://fonts.gstatic.com/s/concertone/v8/eNLG875uBc3mU2X9z56PWyYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Concert One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Concert One'), local('ConcertOne-Regular'), url(https://fonts.gstatic.com/s/concertone/v8/eNLG875uBc3mU2X9z56PW44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+.show{width: 98%; padding: 1%;}
+.usershow{width: 98%; padding: -2%;}@media screen and (max-width: 768px) {.usershow{visibility: hidden;  display: none}}
+.box{float:left; width: 160px; height:200px; border: 1px solid #e8e8e8;margin: 2px;background-color: #F5F5F5; margin-bottom: 10px; overflow : hidden ;}
+.thumb{width: 160px; height:200px; padding:0; padding-top:0; background-color: white;}
+.boxR{float:left; width: 141px; height:177px; margin: 2px; background-color: #F5F5F5; overflow : hidden ;}
+.thumbR{width: 141px; height:177px; padding:0; margin-left:-5px; background-color: white;}
+#nav {margin: 2px;}#fanback {
+display:none;
+background:rgba(0,0,0,0.8);
+width:100%;
+height:100%;
+position:fixed;
+top:0;
+left:0;
+z-index:99999;
+}
+#fan-exit {
+width:100%;
+height:100%;
+}
+#fanbox {
+width:336px; 
+height:290px; 
+position:fixed; 
+left:50%; 
+top:20%; 
+margin-left:-168px;
+background:white;
+}
+#fanclose {
+float:left;
+cursor:pointer;
+height:15px;
+font-weight: bold;
+font-size:12px;
+color:#900;
+padding-left: 5px;
+font-family: 'Anton', sans-serif;
+}
+.remove-borda {
+height:0px;
+width:300px;
+margin:0 auto;
+background:#F3F3F3;
+position:relative;
+margin-left:20px;
+}
+#linkit a.visited,#linkit a,#linkit a:hover {
+color:#80808B;
+font-size:10px;
+margin: 0 auto 5px auto;
+float:center;
+}
+.btnl {width: 150px; background: red; padding:5px; border : 0px; color: #FFF; border-radius : 3px; margin : auto; cursor: pointer; float:left;}
+.btnr {width: 150px; background: red; padding:5px; border : 0px; color: #FFF; border-radius : 3px; margin : auto; cursor: pointer; float:right;
+}
