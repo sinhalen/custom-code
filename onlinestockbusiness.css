@@ -59,12 +59,12 @@ html,body {
         margin: auto;
         width: 800px;
         height: 54px;
-        background: #dddddd url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/onlogo.png) top left no-repeat;
+        background: #fbc531 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/onlogo.png) top left no-repeat;
     }
     @media screen and (max-width: 768px) {
         #logo {
             width: 100%;
-            background: #dddddd url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/onlogo.png) top center no-repeat
+            background: #fbc531 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/onlogo.png) top center no-repeat
         }
     }
     #BodyMain {
