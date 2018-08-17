@@ -1,0 +1,111 @@
+html,body {
+    margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color : black;
+  background: #f5f6fa;
+    }@media screen and (max-width: 768px) {html,body {background: #f5f6fa;} }
+    a,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: #666699;
+    }
+    a:hover {
+        color: #000;
+    }
+    .mbtn:hover {
+        border-bottom: 3px solid #000;
+    }
+    h1{
+  font-weight: 400;
+  text-align:left;
+  font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 8px;
+    }
+    h2{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+  margin-top: -2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+    }
+    h3,h4,h5,h6,a,p,li,strong{
+  font-size: 12px;
+    line-height: 15px;
+  text-align:left;
+  margin-top: -2px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  color:  #5d6d7e;
+    }
+    table{width: 100%; margin: auto;} @media screen and (max-width: 768px) {table {width: 100%;} }
+    tr:nth-child(odd) {
+    background-color: #F5F5F5;
+    }
+    th{background-color: #fbc531; text-align:left; padding: 10px;}
+    #top {
+        background: #e84393;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e84393;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    }
+    #logo {
+        margin: auto;
+        width: 800px;
+        height: 54px;
+        background: #e84393 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/onlogo.png) top left no-repeat;
+    }
+    @media screen and (max-width: 768px) {
+        #logo {
+            width: 100%;
+            background: #e84393 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/onlogo.png) top center no-repeat
+        }
+    }
+    #BodyMain {
+  margin: auto;
+  width: 800px;
+  margin-bottom: 10px;
+  border: 0px solid #B8B8B8;
+  background: white; 
+    }@media screen and (max-width: 768px) {#BodyMain{width: 100%; border: 0px;}}
+    #BodySecond {
+        padding: 20px;
+        margin-bottom: 0;
+        border-top: 1px solid #B8B8B8;
+        background: #dddddd;
+    }@media screen and (max-width: 768px) {
+        #BodySecond {
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    #foot {
+        margin: auto;
+        width: 800px;
+        font-size: 11px;
+        color: #000;
+        text-align: right;
+    }@media screen and (max-width: 768px) {
+        #foot {
+            width: 96%;
+        }
+    }
+    .mbtn{display :block; float: right; text-align: center; font-size: 13px; font-weight:bold; padding: 10px; padding-top: 19px; color: #000}@media screen and (max-width: 768px) {.mbtn{visibility: hidden; display:none;}}
+    .msg{width: 96%;padding: 2%;}@media screen and (max-width: 768px) {.msg{width: 92%;padding: 4%;}}
+    .clear {
+        clear: both;
+    }
+    .album{float:left; width: 18%; margin: 1%; background-color: #F5F5F5; border-radius: 0 0 5px 5px;}
+    @media screen and (max-width: 768px) {.album {width: 23%; margin: 1%;}}
+    @media screen and (max-width: 600px) {.album {width: 31.3%; margin: 1%;}}
+    @media screen and (max-width: 320px) {.album {width: 48.0%; margin: 1%;}}
+    .thumb {float:left; width: 100%; height: auto;
+}
