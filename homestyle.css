@@ -57,7 +57,7 @@
     }
     img { position: absolute; }
     #top {
-	background: #2c3e50;
+	background: #3b5999;
         margin-left: 0;
         margin-top: 0;
         border-bottom: 1px solid #ecf0f1;
@@ -68,13 +68,13 @@
         margin: auto;
         width: 960px;
         height: 54px;
-        background: #2c3e50 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logo.png) top left no-repeat;
+        background: #3b5999 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logo.png) top left no-repeat;
     }
     
     @media screen and (max-width: 768px) {
         #logo {
             width: 100%;
-            background: #2c3e50 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logo.png) top center no-repeat
+            background: #3b5999 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logo.png) top center no-repeat
         }
     }
     
@@ -165,7 +165,7 @@
         padding: 20px;
         margin-bottom: 0;
         border-top: 1px solid #e8e8e8;
-	background: #2c3e50;
+	background: #3b5999;
     }
     
     @media screen and (max-width: 768px) {
