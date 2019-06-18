@@ -58,7 +58,7 @@ td{vertical-align:top; text-align:left;}
 #logo{
 	margin: auto;
 	width: 960px;
-	height: 5500px;
+	height: 49px;
 	background: #1e272e url(https://live.staticflickr.com/65535/48043429072_b0474cf7e4_o.png) top left no-repeat;
 }@media screen and (max-width: 768px) {#logo{width: 100%; background: #1e272e url(https://live.staticflickr.com/65535/48043429072_b0474cf7e4_o.png) top center no-repeat}}
 #mbtn{display :block; float: right; text-align: center; font-size: 13px; font-weight:bold; padding: 10px; padding-top: 19px;padding-bottom: 19px; color: white}@media screen and (max-width: 768px) {#mbtn{visibility: hidden; display:none;}}
