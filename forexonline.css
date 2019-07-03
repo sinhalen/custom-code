@@ -59,8 +59,8 @@ td{vertical-align:top; text-align:left;}
 	margin: auto;
 	width: 960px;
 	height: 50px;
-	background: #3F51B5 url(https://live.staticflickr.com/65535/48041725956_374dbce6d0_o.png) top left no-repeat;
-}@media screen and (max-width: 768px) {#logo{width: 100%; background: #3F51B5 url(https://live.staticflickr.com/65535/48041725956_374dbce6d0_o.png) top center no-repeat}}
+	background: #3F51B5 url(https://live.staticflickr.com/65535/48042870463_ccb1f32de7_o.png) top left no-repeat;
+}@media screen and (max-width: 768px) {#logo{width: 100%; background: #3F51B5 url(https://live.staticflickr.com/65535/48042870463_ccb1f32de7_o.png) top center no-repeat}}
 #mbtn{display :block; float: right; text-align: center; font-size: 15px; font-weight:bold; padding: 15px; padding-top: 15px;padding-bottom: 19px; color: white}@media screen and (max-width: 768px) {#mbtn{visibility: hidden; display:none;}}
 #BodyMain {
 	margin: auto;
