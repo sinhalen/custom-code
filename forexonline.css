@@ -13,15 +13,18 @@ a:hover{color : red;}
     background-color: #F5F5F5;
 	color : black;
 }
-h1{ font-size: 20px;
+h1{
+	font-size: 30px;
 	font-weight : normal;
 	padding: 2px;
 	text-align:left;
-	margin-left: 0;
-	margin-top:5px;
+	margin-left: 5px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	width: auto;
 	background-color: white;
+	font-family: ubuntu,sans-serif;
+	color: #111;
 }@media screen and (max-width: 768px) {h1{width: 99%;padding: 1px;padding-top: 5px;padding-bottom: 5px;font-size:16px;}}
 a{
 	font-size: 12px;
@@ -32,8 +35,10 @@ a{
 p,h2,strong{
 	font-size: 15px;
 	padding: 3px;
-	text-align:left;
-	margin : 5px
+	text-align: justify;
+	margin : 5px;
+	color: #7e7e7e;
+	font-family: lato,sans-serif;
 }@media screen and (max-width: 768px) {p {margin : 3px}}
 h2{font-weight : normal;}
 ul{font-size: 12px;}
@@ -51,7 +56,7 @@ td{vertical-align:top; text-align:left;}
 	background: #3F51B5;
 	margin-left: 0;
 	margin-top: 0;
-	border-bottom: 2px solid #FFC107;
+	border-bottom: 2px solid #ffea00;
 	margin-bottom: 10px;
 	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
@@ -73,8 +78,8 @@ td{vertical-align:top; text-align:left;}
 #BodySecond {
 	padding: 15px;
 	margin-bottom: 0;
-	border-top: 1px solid #EF5350;
-	background: #15c;
+	border-top: 2px solid #fb0202;
+	background: #1c232f;
 }@media screen and (max-width: 768px) {#BodySecond{width: 100%;padding-left: 0px;padding-right: 0px;}}
 .msg{width: 100%;padding: 1%;}
 #advertisement{margin-bottom: 12px;}
