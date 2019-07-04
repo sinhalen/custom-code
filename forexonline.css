@@ -7,11 +7,11 @@ html,body{
 	color : black;
 	background-color: #F5F5F5;
 }
-a,a:visited,a:active {text-decoration: none; color : #0066CC; }
-a:hover{color : red;}
+a,a:visited,a:active {text-decoration: none; color : #f60d2b; }
+a:hover{color : #0000ff;}
 #mbtn:hover, #mbtnx:hover{
     background-color: #F5F5F5;
-	color : black;
+	color : #0000ff;
 }
 h1{
 	font-size: 30px;
