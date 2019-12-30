@@ -1,0 +1,107 @@
+html,body{
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color : black;
+	background:  #e6e7e8;
+}@media screen and (max-width: 768px) {html,body{background: linear-gradient(180deg, #00A7CF 5%, #FFF 15%, #FFF 80%) top left no-repeat;}}
+a,a:visited,a:active {text-decoration: none; color : #232323;}
+a:hover{color : red;}
+#mbtn:hover, #mbtnx:hover{
+    border-bottom: 3px solid #F5F5F5;
+}
+#pagebtn:hover{
+    background-color: #00A7CF;
+	color : #FFF;
+}
+h1{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	font-weight : normal;
+	padding: 2px;
+	text-align:left;
+	margin-left: 0;
+	margin-top:-5px;
+	margin-bottom: 5px;
+	color: #232323;
+	border-bottom: 1px solid #e8e8e8;
+}@media screen and (max-width: 768px) {h1{width: 96%;padding: 2%;font-size:16px;}}
+h2{
+	font-size: 15px;
+	padding: 4px;
+	text-align:left;
+	width: auto;
+	margin : 1px
+}@media screen and (max-width: 768px) {h2{width: 98%;padding: 1px;font-size: 15px;}}
+p,strong{
+	font-size: 12px;
+	padding: 3px;
+	text-align:left;
+	margin : 5px
+}@media screen and (max-width: 768px) {p,strong{width: 98%;padding: 1px;font-size: 12px;}}
+hr{ border: 0.5px solid #e8e8e8;}
+table {width: 100%;}
+td{vertical-align:top; text-align:left; }
+img { position: absolute; }
+#top{
+	background: #232323;
+	margin-left: 0;
+	margin-top: 0;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 10px;
+}
+#logo{
+	margin: auto;
+	width: 960px;
+	height: 54px;
+	background: #232323 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logolankanew.png) top left no-repeat;
+}@media screen and (max-width: 768px) {#logo{width: 100%; background: #232323 url(https://raw.githubusercontent.com/sinhalen/thumbnail-gallery/master/logolankanew.png) top center no-repeat}}
+#mbtn{display :block; float: right; text-align: center; font-size: 13px; font-weight:bold; padding: 10px; padding-top: 19px;padding-bottom: 19px; color: white}@media screen and (max-width: 768px) {#mbtn{visibility: hidden; display:none;}}
+#pagebtn{display :block; float: left; text-align: center; font-size: 13px; font-weight:bold; padding: 8px; margin: 8px; color: #232323;border: 1px solid #232323;}
+#BodyMain {
+	margin: auto;
+	width: 960px;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: white; 
+	border-radius: 0 0;
+}@media screen and (max-width: 768px) {#BodyMain{width: 94%;padding-left: 0px;padding-right: 0px;overflow:hidden;}}
+.leftcont{float:left; width: 960px;height:auto; border: 0px solid #e8e8e8;background: white; padding: 0;}@media screen and (max-width: 768px) {.leftcont{width: 99%;float:left; margin: 0;margin-bottom: 5px; overflow:hidden;}}
+#BodySecond {
+	padding: 20px;
+	background: white;
+	margin-bottom: 0;
+	border-top: 1px solid #e8e8e8;
+	background: #232323;
+}@media screen and (max-width: 768px) {#BodySecond{width: 100%;padding-left: 0px;padding-right: 0px;}}
+.msg{margin-bottom: 2px; padding:5px;}@media screen and (max-width: 768px) {.msg{width: 98%;padding: 5px;}}
+.btnpanel{margin-bottom: 2px; padding:5px;width: 30%; margin: auto;}
+.vidboxr{float:left; width: 98%; height:68px; margin: 2px; background-color: #fff;border-bottom: 1px solid #e8e8e8; padding: 1px; overflow : hidden; display : block;}}@media screen and (max-width: 768px) {#foot{width: 99%;}}
+.thumba{width: 90px; height:62px; background-color: white; margin-left: -8px;}
+.vidtitle{font-size: 13px; text-align:left;}
+.vidtitlecat{font-size: 12px; text-align:left; color:#ccc;}
+#foot{
+	margin: auto;
+	width: 960px;
+	font-size: 12px;
+	color : #FFF;
+	text-align : right;
+}@media screen and (max-width: 768px) {#foot{width: 96%;}}
+.clear{clear:both;}
+.boxnew {
+        float: left;
+        width: 153px;
+        height: 210px;
+        margin: 3px;
+        background-color: #F5F5F5;
+        margin-bottom: 10px;
+        overflow: hidden;
+}
+.box{float:left; width: 15.66%; height:190px; margin: .5%;background-color: #F5F5F5; margin-bottom: 10px; overflow : hidden ;}
+.thumb{width: 153px; height:190px; padding:0; padding-top:0; background-color: white;}
+.bannerbox{float:left; width: 468px; height:60px; border: 1px solid #e8e8e8;margin: 2px;background-color: #F5F5F5; margin-bottom: 5px; overflow : hidden ;}
+.banner{width: 468px; height:60px; padding:0; padding-top:0; background-color: white;}
+.boxR{float:left; width: 141px; height:177px; margin: 2px; background-color: #F5F5F5; overflow : hidden ;}
+.thumbR{width: 141px; height:177px; padding:0; padding-top:0; background-color: white;}
